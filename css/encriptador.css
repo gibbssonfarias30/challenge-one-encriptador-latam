@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+}
+.alura{
+    width: 70px;
+    padding: 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section{
+    width: 40%;
+    height: 500px;
+}
+.conteiner-seccion01{
+    width: 70%;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    resize: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: 0;
+    border: aliceblue;
+    outline: none;
+}
+
+
+.btn-encriptar, .btn-desencriptar{
+    width: 25%;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+.btn-encriptar{
+    background-color: #33B8FF;
+    
+}
+.btn-desencriptar{
+    background-color: #B3CFB7;
+    left: 20px;
+    position: relative;
+}
+
+.btn-buttons{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.conteiner-seccion02{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: auto;
+    bottom: 25px;
+    position: relative;
+}
+
+.container-h1{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+.conteiner-muneco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: auto;
+    bottom: 50px;
+    position: relative;
+}
+.muneco{
+    width: 65%;
+    height: 140px;
+    left: 30px;
+    position: relative;
+}
+.container-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.conteiner-resultado{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding: 35px;
+    box-sizing: border-box;
+
+}
+
+.conteiner-copy{
+    width: 100%;
+    height: 20%;
+}
+
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    background-color: #DE5BF9;
+}
+.ocultar{
+    display: none;
+}
+
+.icono{
+    position: relative;
+    text-align: center;
+    right: 110px;
+    top: 18px;
+}
+.importante{
+    position: relative;
+    text-align: center;
+}
+
